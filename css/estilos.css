@@ -58,15 +58,54 @@ body {
     text-align: center;  
   }
   .site-subtitle{
+    font-family: 'Cutive Mono', monospace;
     font-style: italic
   }
 
   .site-title{
-    font-size: 4em;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 4em;    
   }
+
+  .portfolio{
+    padding: 2em;
+    height: 100vh;
+  }
+
+  .portfolio h2{
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    margin-bottom: 1.5em;
+    font-size: 2em;
+  }
+.portfolio figure{
+  text-align: center;
+}
+  .portfolio .grid{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 240px 240px;
+  }
+
+  @media (min-width: 560px){
+    .portfolio .grid{
+      grid-template-columns: 240px 240px;
+    }
+  }
+
+  @media (min-width: 880px){
+    .portfolio .grid{
+      align-content: center;
+      grid-template-columns: repeat(3, 240px);
+      height: calc(100vh -4em -48px -1.5em);
+      justify-content: center;
+    }
+  }
+
   .img-portfolio {
     height: 180px;
-    width: 180px;
+    object-fit: cover;
+    width: 240px;
   }
   
   
