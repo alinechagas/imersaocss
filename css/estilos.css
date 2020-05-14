@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('../img/fundo.jpg');
+    background-image: url('../img/cactus.jpg');
     background-size: auto 100vh;
     font-family: Arial;
     font-size: 12px;
@@ -58,12 +58,12 @@ body {
     text-align: center;  
   }
   .site-subtitle{
-    font-family: 'Cutive Mono', monospace;
+    font-family: 'Indie Flower', cursive;
     font-style: italic
   }
 
   .site-title{
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Cutive Mono', monospace;
     font-size: 4em;    
   }
 
