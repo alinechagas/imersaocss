@@ -1,48 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aline Chagas</title>
-  <link rel="stylesheet" href="css/estilos.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Reenie+Beanie&family=Roboto:wght@400;700&display=swap"
-    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aline Chagas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Reenie+Beanie&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6d6952c5be.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <header>
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
-    <div>
-      <h1 class="site-title">Aline Chagas</h1>
-      <h2 class="site-subtitle">Professora</h2>
-    </div>
-  </header>
-  <section class="portfolio">
-    <h2>Projetos</h2>
-    <div class="grid">
-      <figure>
-        <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-        <figcaption>eCommerce</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-        <figcaption>Mobile</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-        <figcaption>Web design</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
-        <figcaption>Projetos pessoais</figcaption>
-      </figure>
-    </div>
-  </section>
+
+    <header class="background">
+        <nav class="menu">
+            <ul class="container">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h1 class="site-title">Aline Chagas</h1>
+            <h2 class="site-subtitle">Professora</h2>
+        </div>
+    </header>
+
+    <section class="sobre container">
+        <h2>Sobre</h2>
+        <figure class="avatar">
+            <img src="https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg" alt="imagem">
+        </figure>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempora eligendi, aut ab id consectetur
+            voluptatem eius autem obcaecati et odio ducimus sint dignissimos laboriosam reiciendis. A cumque repudiandae
+            ipsa. Voluptates, aspernatur? Magni
+            amet modi aliquid consectetur, incidunt ullam voluptates placeat saepe nihil! Voluptatum, placeat nisi
+            expedita sapiente cumque accusamus praesentium eligendi nam numquam! Totam consequatur eius tempore quasi
+            doloremque.
+        </p>
+        <p>Hic saepe labore rerum facere sit voluptates. Alias eos, modi repellendus quisquam voluptas natus nihil
+            labore temporibus. </p>
+
+        <p>Impedit dolor, eum aliquam iste tenetur accusamus perferendis harum, ullam, provident iusto distinctio!
+            Ratione illo aliquid sit vero error deleniti vitae magnam eius, fugiat corporis, quam architecto. Error,
+            aliquam excepturi iure nam aut atque
+            tempora nemo? Ipsa harum itaque, ea illo tenetur corrupti?</p>
+
+    </section>
+    <section class="portfolio container" id="portfolio">
+        <h2>Projetos</h2>
+        <div class="grid">
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg"
+                            alt="eCommerce">
+                        <figcaption>eCommerce</figcaption>
+                    </figure>
+                    <div class="card-back">Oi eu sou a parte de trás :) </div>
+                </div>
+            </div>
+
+            <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
+            <figcaption>Mobile</figcaption>
+            </figure>
+            <figure>
+                <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+                <figcaption>Web design</figcaption>
+            </figure>
+            <figure>
+                <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg"
+                    alt="Projetos pessoais">
+                <figcaption>Projetos pessoais</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="contato container" id="contato">
+        <h2>Contato</h2>
+        <div class="grid icons">
+            <a href="https://https://github.com/alinechagas">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="http://lattes.cnpq.br/5540411871860866">
+                <i class="fas fa-graduation-cap"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/aline-chagas-rodrigues-marques-34630437/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:alinechagasrmarques@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </section>
 </body>
+
 </html>
